@@ -1,0 +1,16 @@
+#include <stdio.h>
+
+int main(void){
+	int a,b,c;
+	printf("Enter 3 integers: ");
+	scanf("%d %d %d", &a, &b, &c);
+	if(a > b && a > c){
+		printf("\nis the greatest = %d", a);
+	}
+	if(b > a && b > c){
+		printf("\nis the greatest = %d", b);
+	}
+	if(c > a && c > b){
+		printf("\nis the greatest = %d", c);
+	}
+}
